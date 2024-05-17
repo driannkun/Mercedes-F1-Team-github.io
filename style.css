@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 
-body{
+body {
   padding-top: 5rem;
 }
 
@@ -36,8 +36,6 @@ body{
   padding-top: 8rem;
   width: 100%;
   min-height: 100vh;
-  
-
 }
 
 .header-judul {
@@ -117,7 +115,7 @@ nav img {
   height: auto;
 }
 
-nav ul{
+nav ul {
   display: flex;
   width: 30%;
 }
@@ -148,7 +146,7 @@ nav ul li:hover::after {
 }
 
 /* moreheader */
-#moreheader{
+#moreheader {
   display: flex;
   width: 100%;
   min-height: 100vh;
@@ -908,93 +906,89 @@ footer {
 }
 
 /* media query */
-@media screen and (max-width: 768px){
-
-  
-
-  #header{
+@media screen and (max-width: 768px) {
+  #header {
     background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 80%,
-      rgb(27, 27, 27) 100%
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 40%,
-      rgb(27, 27, 27) 100%
-    ),
-    linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 80%,
-      rgb(27, 27, 27) 100%
-    ),
-    url(image/Japan\ Mobile\ Wallpaper\ 4.png);
+        to left,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 80%,
+        rgb(27, 27, 27) 100%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 40%,
+        rgb(27, 27, 27) 100%
+      ),
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 80%,
+        rgb(27, 27, 27) 100%
+      ),
+      url(image/Japan\ Mobile\ Wallpaper\ 4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
   }
 
-  .header-judul{
+  .header-judul {
     text-align: center;
     padding-top: 9rem;
   }
 
-  .header-judul h1{
+  .header-judul h1 {
     font-size: 1.8rem;
     padding: 0px 5rem 0px 5rem;
   }
 
-  .header-judul p{
+  .header-judul p {
     margin-top: 12.5rem;
     font-size: 0.6rem;
     text-align: center;
     padding: 0px 5rem 0px 5rem;
     text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.6);
-}
+  }
 
   .more button {
     display: none;
-}
+  }
 
-.sosmed{
-  border-left: 0px;
-  margin-left: 36%;
-  padding: 5px 15px 5px 15px;
-  border-radius: 3rem;
-}
+  .sosmed {
+    border-left: 0px;
+    margin-left: 36%;
+    padding: 5px 15px 5px 15px;
+    border-radius: 3rem;
+  }
 
-.sosmed svg{
-  fill: #23b5a6;
-  width: 18px;
-}
+  .sosmed svg {
+    fill: #23b5a6;
+    width: 18px;
+  }
 
-.more1 {
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0) 0%,  
-      rgba(0, 0, 0, 0) 70%,
-      rgb(27, 27, 27) 100%
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 70%,
-      rgb(27, 27, 27) 100%
-    ),
-    linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 70%,
-      rgb(27, 27, 27) 100%
-    ),
-    url(image/LH_Wallpaper.png);
-  background-size: 70% 80%;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
+  .more1 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 70%,
+        rgb(27, 27, 27) 100%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 70%,
+        rgb(27, 27, 27) 100%
+      ),
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 70%,
+        rgb(27, 27, 27) 100%
+      ),
+      url(image/LH_Wallpaper.png);
+    background-size: 70% 80%;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
 }
