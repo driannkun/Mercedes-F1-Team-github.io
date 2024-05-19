@@ -21,6 +21,7 @@ body {
   width: 100%;
   min-height: 100vh;
   display: flex;
+  flex-wrap:wrap-reverse ;
   justify-content: space-around;
   padding: 0px 4rem 0px 4rem;
 }
