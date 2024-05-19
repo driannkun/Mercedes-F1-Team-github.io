@@ -899,65 +899,49 @@ footer {
 }
 
 /* media query */
-@media screen and (max-width: 768px) {
-  #header {
-    background-image: linear-gradient(
-        to left,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0) 80%,
-        rgb(27, 27, 27) 100%
-      ),
-      linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0) 40%,
-        rgb(27, 27, 27) 100%
-      ),
-      linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0) 80%,
-        rgb(27, 27, 27) 100%
-      ),
-      url(image/Japan\ Mobile\ Wallpaper\ 4.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+@media screen and (max-width: 992px) {
+  
+  .header-img img{
+    width: 25rem;
+    height: auto;
   }
 
   .header-judul {
+    justify-content: center;
+    margin-top: -8rem;
+    width: 100%;
     text-align: center;
-    padding-top: 9rem;
   }
-
+  
   .header-judul h1 {
-    font-size: 1.8rem;
-    padding: 0px 5rem 0px 5rem;
-  }
-
-  .header-judul p {
-    margin-top: 12.5rem;
-    font-size: 0.6rem;
-    text-align: center;
-    padding: 0px 5rem 0px 5rem;
+    color: #23b5a6;
+    font-size: 1.85rem;
     text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.6);
+    
+  }
+  
+  .header-judul p {
+    font-size: 1.45rem;
+    color: white;
   }
 
-  .more button {
+  .more{
+    display: block;
+  }
+
+  .more button{
     display: none;
   }
 
   .sosmed {
     border-left: 0px;
-    margin-left: 36%;
-    padding: 5px 15px 5px 15px;
+    margin-left: 0px;
+    justify-content: center;
     border-radius: 3rem;
   }
 
   .sosmed svg {
-    fill: #23b5a6;
-    width: 18px;
+    width: 22px;
   }
 
   .more1 {
@@ -983,5 +967,144 @@ footer {
     background-size: 70% 80%;
     background-repeat: no-repeat;
     background-position: left center;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  #header{
+    padding-top: 5rem;
+  }
+
+  .header-img img{
+    width: 20rem;
+    height: auto;
+  }
+
+  .header-judul {
+    justify-content: center;
+    margin-top: -10rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header-judul h1 {
+    color: #23b5a6;
+    font-size: 1.5rem;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.6);
+    
+  }
+  
+  .header-judul p {
+    font-size: 1.2rem;
+    color: white;
+    
+  }
+
+  .more button {
+    display: none;
+  }
+
+  .sosmed {
+    border-left: 0px;
+    margin-left: 0px;
+    justify-content: center;
+    border-radius: 3rem;
+  }
+
+  .sosmed svg {
+    width: 18px;
+  }
+
+  /* moreheader */
+
+
+  .more1 {
+    width: 55%;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 60%,
+        rgb(27, 27, 27) 95%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 60%,
+        rgb(27, 27, 27) 90%
+      ),
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 60%,
+        rgb(27, 27, 27) 90%
+      ),
+      url(image/Chinese\ GP\ Mobile\ Wallpaper\ 3.JPG);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stats {
+    width: 45%;
+    padding-top: 10rem;
+    text-align: end;
+    color: white;
+  }
+  
+  .stats h1 {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+  }
+  
+  .stats h1 span {
+    color: #23b5a6;
+  }
+  
+  .stats p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stats p span {
+    color: #23b5a6;
+    font-weight: bold;
+  }
+
+  /* driver */
+  /* #driver {
+    position: relative;
+  } */
+  
+  #driver h1 {
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+  }
+  
+  
+  .card1 {
+    max-width: 450px;
+    max-height: 300px;
+    margin-bottom: 75px;
+  }
+  
+  .imagehcard img {
+    width: 340px;
+    height: auto;
+  }
+  
+  .top p {
+    font-size: 90px;
+  }
+  
+  .card1:hover p {
+    transform: translateX(-53px);
+  }
+  
+  .drivername {
+    font-size: 28px;
+  }
+  
+  .drivername p {
+    font-size: 25px;
   }
 }
